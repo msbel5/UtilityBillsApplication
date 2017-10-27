@@ -57,7 +57,6 @@ namespace billSolution
             lblTutar.Text = (calculator.GetCalculation(bill).ToString());
 
         }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             switch ((EBillKind)((Enum.Parse(typeof(EBillKind), (comboBox1.SelectedItem.ToString())))))
@@ -78,10 +77,6 @@ namespace billSolution
                     break;
             }
         }
-
-
-
-
     }
 }
 
